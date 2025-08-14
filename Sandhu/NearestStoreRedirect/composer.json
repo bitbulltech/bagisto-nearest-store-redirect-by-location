@@ -1,0 +1,14 @@
+{
+    "name": "sandhu/nearest-store-redirect",
+    "description": "Redirects customer to nearest store based on browser location.",
+    "type": "bagisto-module",
+    "autoload": {
+        "psr-4": {
+            "Sandhu\\NearestStoreRedirect\\": "src/"
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
+
